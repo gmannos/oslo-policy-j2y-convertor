@@ -1,1 +1,0 @@
-# oslo-policy-j2y-convertor
