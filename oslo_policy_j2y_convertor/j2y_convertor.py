@@ -134,7 +134,8 @@ def convert_policy_json_to_yaml(args=None, conf=None):
                 }]
                 if hasattr(default_rule, 'operations'):
                     operations=  default_rule.operations
-                # Converting json file rules to DocumentedRuleDefault rules so                 # that we can covert the json file to yaml including
+                # Converting json file rules to DocumentedRuleDefault rules so
+                # that we can covert the json file to yaml including
                 # descriptions which is what 'oslopolicy-sample-generator'
                 # tool does.
                 file_rule = policy.DocumentedRuleDefault(
